@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="main.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="10"/>
+        <CursorPos X="128" Y="36"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="libpascurl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="597"/>
+        <CursorPos X="8" Y="627"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\streams.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="834"/>
+        <CursorPos X="27" Y="862"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="18" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="9" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="17" Column="35"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="5" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="13" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="14" Column="57"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="13" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="7" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="8" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="17" Column="61"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="18" Column="4"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="15" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="22" Column="61"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="35" Column="69" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="21" Column="70" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="12" Column="3" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="39" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="54" Column="51" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="30" Column="45" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="32" Column="48" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="25" Column="20" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="33" Column="38" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="38" Column="3" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\streams.inc"/>
+        <Caret Line="862" Column="27" TopLine="834"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="38" Column="3" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="41" Column="100" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="58" Column="16" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="46" Column="68" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="56" Column="39" TopLine="11"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
