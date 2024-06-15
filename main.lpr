@@ -9,15 +9,16 @@ uses
   fphttpclient,
   fpjson,
   jsonparser,
-  opensslsockets;
+  opensslsockets,
+  Crt;
 
 const
   API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 
-
 var
   API_KEY: String;
   Question: String;
+  Model: String;
   HttpClient: TFPHTTPClient;
   ResponseData: TStringStream;
   PostData: TStringStream;
@@ -28,12 +29,34 @@ var
 begin
   API_KEY := DotEnv.Env('API_KEY');
 
-  Write('Posez votre question : ');
+  WriteLn('Selection du modele : ');
+  WriteLn();
+  WriteLn('1 - gpt-3.5-turbo');
+  WriteLn('2 - gpt-4');
+  WriteLn('3 - gpt-4-turbo');
+  WriteLn('4 - gpt-4o');
+  WriteLn('q - Quitter');
+  WriteLn();
+  WriteLn();
+  Write('Votre choix : ');
+  ReadLn(Model);
+
+case Model of
+  '1' : Model := 'gpt-3.5-turbo';
+  '2' : Model := 'gpt-4';
+  '3' : Model := 'gpt-4-turbo';
+  '4' : Model := 'gpt-4o';
+  'q' : exit;
+end;
+
+  // Ask the user for a question
+  ClrScr();
+  Write(Format('(%s) Posez votre question : ', [Model]));
   ReadLn(Question);
 
   JsonBody := Format(
-    '{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "%s"}]}',
-    [Question]
+    '{"model": "%s", "messages": [{"role": "user", "content": "%s"}]}',
+    [Model, Question]
   );
 
   HttpClient := TFPHTTPClient.Create(nil);
@@ -50,12 +73,13 @@ begin
 
     ContentMessage := JsonResponse.FindPath('choices[0].message.content').AsString;
 
-    writeln;
-    writeln(ContentMessage);
+    WriteLn();
+    WriteLn();
+    WriteLn(ContentMessage);
     ReadLn;
   except
     on E: Exception do
-      writeln('Error: ', E.Message);
+      WriteLn('Error: ', E.Message);
   end;
 
   JsonResponse.Free;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1482330472"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq -FiD:\Projets\Pascal\Simple-Pascal-OpenAI-API-Integration\lib\x86_64-win64 -FuD:\Projets\Pascal\Simple-Pascal-OpenAI-API-Integration\ -FUD:\Projets\Pascal\Simple-Pascal-OpenAI-API-Integration\lib\x86_64-win64\ -FED:\Projets\Pascal\Simple-Pascal-OpenAI-API-Integration\ -oD:\Projets\Pascal\Simple-Pascal-OpenAI-API-Integration\main.exe main.lpr"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq -FiD:\Projets\Pascal\Simple-Pascal-ChatGPT-Integration\lib\x86_64-win64 -FuD:\Projets\Pascal\Simple-Pascal-ChatGPT-Integration\ -FUD:\Projets\Pascal\Simple-Pascal-ChatGPT-Integration\lib\x86_64-win64\ -FED:\Projets\Pascal\Simple-Pascal-ChatGPT-Integration\ -oD:\Projets\Pascal\Simple-Pascal-ChatGPT-Integration\main.exe main.lpr"/>
 </CONFIG>
