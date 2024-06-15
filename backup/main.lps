@@ -9,7 +9,8 @@
         <Filename Value="main.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="35" Y="15"/>
+        <TopLine Value="26"/>
+        <CursorPos X="16" Y="55"/>
         <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit>
@@ -22,46 +23,21 @@
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\streams.inc"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="834"/>
         <CursorPos X="27" Y="862"/>
         <UsageCount Value="14"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\rtl-console\src\win\crt.pp"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="478"/>
+        <CursorPos X="106" Y="319"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="22" Column="61"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="35" Column="69" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="21" Column="70" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="12" Column="3" TopLine="5"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="39" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="54" Column="51" TopLine="2"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="30" Column="45" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="main.lpr"/>
-        <Caret Line="32" Column="48" TopLine="4"/>
-      </Position>
       <Position>
         <Filename Value="main.lpr"/>
         <Caret Line="25" Column="20" TopLine="5"/>
@@ -73,10 +49,6 @@
       <Position>
         <Filename Value="main.lpr"/>
         <Caret Line="38" Column="3" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\streams.inc"/>
-        <Caret Line="862" Column="27" TopLine="834"/>
       </Position>
       <Position>
         <Filename Value="main.lpr"/>
@@ -149,6 +121,42 @@
       <Position>
         <Filename Value="main.lpr"/>
         <Caret Line="17" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="13" Column="4"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="52" Column="58" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="39" Column="74" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="55" Column="37" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="54" Column="12" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="51" Column="60" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="50" Column="23" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="34" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="main.lpr"/>
+        <Caret Line="31" Column="25" TopLine="4"/>
       </Position>
     </JumpHistory>
     <RunParams>

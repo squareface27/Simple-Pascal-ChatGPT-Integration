@@ -24,11 +24,14 @@ var
   PostData: TStringStream;
   JsonResponse: TJSONData;
   ContentMessage: TJSONStringType;
-  JsonBody: string;
+  JsonBody: String;
+  ValidChoice: Boolean;
 
 begin
   API_KEY := DotEnv.Env('API_KEY');
+  ValidChoice := False;
 
+repeat
   WriteLn('Selection du modele : ');
   WriteLn();
   WriteLn('1 - gpt-3.5-turbo');
@@ -40,14 +43,20 @@ begin
   WriteLn();
   Write('Votre choix : ');
   ReadLn(Model);
+  WriteLn();
 
 case Model of
-  '1' : Model := 'gpt-3.5-turbo';
-  '2' : Model := 'gpt-4';
-  '3' : Model := 'gpt-4-turbo';
-  '4' : Model := 'gpt-4o';
+  '1' : begin Model := 'gpt-3.5-turbo'; ValidChoice := True; end;
+  '2' : begin Model := 'gpt-4'; ValidChoice := True; end;
+  '3' : begin Model := 'gpt-4-turbo'; ValidChoice := True; end;
+  '4' : begin Model := 'gpt-4o'; ValidChoice := True; end;
   'q' : exit;
-end;
+  else
+      ClrScr();
+      WriteLn('Merci d''indiquer un modele valide');
+      WriteLn();
+  end;
+until ValidChoice;
 
   // Ask the user for a question
   ClrScr();
